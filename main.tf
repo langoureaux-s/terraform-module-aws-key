@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "${var.location}"
-}
-
 
 resource "aws_key_pair" "key" {
   key_name   = "etl_outils"
